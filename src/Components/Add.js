@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import IconButton from "@material-ui/core/IconButton";
 import Icon from "@material-ui/core/Icon";
 import TextField from '@material-ui/core/TextField';
+import './Add.scss';
 
 function Add() {
 
@@ -32,6 +33,11 @@ function Add() {
             textDecorationStyle: 'solid'
         });
     }
+    const keyPress = (event) => {
+        if(event.keyCode === 13) {
+            isClicked()
+        }
+    }
 
 if(!clickState.inputLinkClicked) {
     return (
@@ -40,15 +46,18 @@ if(!clickState.inputLinkClicked) {
             <IconButton onClick={isClicked}>
                 <Icon color="primary" style={{fontSize: 40}}>add_circle</Icon>
             </IconButton>
-            <TextField id="standard-basic" label="Text Here" value={clickState.inputText} onChange={isChanged}/>
+            <TextField id="standard-basic" label="Text Here" value={clickState.inputText} onChange={isChanged} onKeyDown={keyPress}/>
 
         </div>
     );
 }
 else {
     return(
-        <h1 onClick={isStyleClicked} style={{textDecorationLine: styleState.textDecorationLine,
+        <div>
+            <h1 onClick={isStyleClicked} className={"clickable"} style={{textDecorationLine: styleState.textDecorationLine,
             textDecorationStyle: styleState.textDecorationStyle}}> {clickState.inputText}</h1>
+            <Add/>
+        </div>
     );
 }
 }
