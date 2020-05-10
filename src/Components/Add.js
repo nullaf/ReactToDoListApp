@@ -3,6 +3,8 @@ import IconButton from "@material-ui/core/IconButton";
 import Icon from "@material-ui/core/Icon";
 import TextField from '@material-ui/core/TextField';
 import './Add.scss';
+import Grid from "@material-ui/core/Grid";
+import DeleteIcon from '@material-ui/icons/Delete';
 
 function Add() {
 
@@ -27,16 +29,34 @@ function Add() {
         textDecorationLine: "",
         textDecorationStyle: ""
     });
+
     const isStyleClicked = () => {
-        setStyle({
-            textDecorationLine: 'line-through',
-            textDecorationStyle: 'solid'
-        });
+        if(styleState.textDecorationLine !== 'line-through') {
+            setStyle({
+                textDecorationLine: 'line-through',
+                textDecorationStyle: 'solid'
+            });
+
+        }
+        else {
+            setStyle({
+                textDecorationLine: '',
+                textDecorationStyle: ''
+            });
+
+        }
+
     }
     const keyPress = (event) => {
         if(event.keyCode === 13) {
             isClicked()
         }
+    }
+    const isDeleted = () => {
+        setClick({
+            inputLinkClicked: false,
+            inputText: ""
+        });
     }
 
 if(!clickState.inputLinkClicked) {
@@ -54,9 +74,11 @@ if(!clickState.inputLinkClicked) {
 else {
     return(
         <div>
-            <h1 onClick={isStyleClicked} className={"clickable"} style={{textDecorationLine: styleState.textDecorationLine,
-            textDecorationStyle: styleState.textDecorationStyle}}> {clickState.inputText}</h1>
             <Add/>
+            <Grid container direction="row">
+            <h1 onClick={isStyleClicked} className={"clickable"} style={{textDecorationLine: styleState.textDecorationLine,
+            textDecorationStyle: styleState.textDecorationStyle}}> {clickState.inputText}</h1> <DeleteIcon onClick={isDeleted} className={"deleteicon"}/>
+            </Grid>
         </div>
     );
 }

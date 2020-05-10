@@ -1,4 +1,15 @@
 .clickable:hover {
   opacity: 70%; }
 
+div {
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box; }
+  div h1 {
+    margin: auto 5px; }
+
+.deleteicon {
+  margin: auto 5px;
+  font-size: 50px; }
+
 /*# sourceMappingURL=Add.css.map */
