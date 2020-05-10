@@ -1,22 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d215420-c418-4624-b878-518f0c93b584" name="Default Changelist" comment="" />
+    <list default="true" id="2d215420-c418-4624-b878-518f0c93b584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aGq3osCiOUjHr9FMd6Llfs1Az4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,8 +75,80 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586372081990</updated>
-      <workItem from="1586372085800" duration="450000" />
+      <workItem from="1586372085800" duration="6786000" />
+      <workItem from="1586464822538" duration="1188000" />
+      <workItem from="1586546410025" duration="1789000" />
+      <workItem from="1586741797316" duration="511000" />
+      <workItem from="1586743668608" duration="1193000" />
+      <workItem from="1586751698248" duration="1245000" />
+      <workItem from="1586813050368" duration="2893000" />
+      <workItem from="1586833545850" duration="1000000" />
+      <workItem from="1588055621671" duration="422000" />
+      <workItem from="1588056062169" duration="292000" />
+      <workItem from="1588535522059" duration="1038000" />
+      <workItem from="1588704267318" duration="326000" />
+      <workItem from="1588704673373" duration="610000" />
+      <workItem from="1588756093623" duration="349000" />
+      <workItem from="1588756496965" duration="30000" />
+      <workItem from="1588756538948" duration="4210000" />
+      <workItem from="1588854431735" duration="6287000" />
+      <workItem from="1588929497496" duration="9394000" />
+      <workItem from="1589054560033" duration="1127000" />
+      <workItem from="1589117566215" duration="6863000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="110" key="#File_Watchers" timestamp="1586393313591">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="532" y="110" key="#File_Watchers/0.0.1536.864@0.0.1536.864" timestamp="1586393313591" />
+    <state x="449" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588704571618">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1588704571618" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588872752516">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1588872752516" />
+    <state x="342" y="196" width="723" height="668" key="EditFileWatcherDialog" timestamp="1586378096539">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="342" y="196" width="723" height="668" key="EditFileWatcherDialog/0.0.1536.864@0.0.1536.864" timestamp="1586378096539" />
+    <state x="947" y="277" key="FileChooserDialogImpl" timestamp="1586377567853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="947" y="277" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586377567853" />
+    <state width="757" height="164" key="GridCell.Tab.0.bottom" timestamp="1589125579524">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="757" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589125579524" />
+    <state width="757" height="164" key="GridCell.Tab.0.center" timestamp="1589125579524">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="757" height="164" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589125579524" />
+    <state width="757" height="164" key="GridCell.Tab.0.left" timestamp="1589125579524">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="757" height="164" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589125579524" />
+    <state width="757" height="164" key="GridCell.Tab.0.right" timestamp="1589125579524">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="757" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589125579524" />
+    <state x="407" y="68" key="SettingsEditor" timestamp="1588887777686">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="407" y="68" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588887777686" />
+    <state x="900" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589119469966">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="900" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1589119469966" />
+    <state x="722" y="182" key="scopes" timestamp="1586376883853">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="182" key="scopes/0.0.1536.864@0.0.1536.864" timestamp="1586376883853" />
   </component>
 </project>
