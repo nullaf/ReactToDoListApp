@@ -18,12 +18,15 @@ function Add() {
     });
 
     const isClicked = () => {
-        setClick({
-            inputLinkClicked: true,
-            inputText: clickState.inputText
-        });
+        if(clickState.inputText !== "") {
+            setClick({
+                inputLinkClicked: true,
+                inputText: clickState.inputText
+            });
+        }
     }
     const isChanged = (event) => {
+
         setClick({
             inputLinkClicked: false,
             inputText: event.target.value
@@ -61,13 +64,19 @@ function Add() {
         }
     }
     const isDeleted = () => {
+        audio2.play()
+
         setClick({
             inputLinkClicked: false,
             inputText: ""
         });
     }
-    let audio = new Audio("/succes.mp3")
 
+
+
+
+    let audio = new Audio("/success.mp3")
+    let audio2 = new Audio("/remove.wav")
 
     if(!clickState.inputLinkClicked || clickState.inputText === "") {
         return (
@@ -86,9 +95,9 @@ function Add() {
             <div className={"todo"}>
                 <Add/>
                 <Grid container direction="row" className={"Grid"}>
-                    <Checkbox onClick={isStyleClicked} color="secondary"></Checkbox>
+                    <Checkbox onClick={isStyleClicked} color="secondary"> </Checkbox>
                     <Typography variant="h4" className={"clickable"}  style={{textDecorationLine: styleState.textDecorationLine,
-                        textDecorationStyle: styleState.textDecorationStyle,color:styleState.color}}> {clickState.inputText}</Typography><DeleteIcon color="secondary" onClick={isDeleted}  className={"deleteicon"}/>
+                        textDecorationStyle: styleState.textDecorationStyle,color:styleState.color}}> {clickState.inputText} </Typography><DeleteIcon color="secondary" onClick={isDeleted}  className={"deleteicon"}/>
                 </Grid>
             </div>
         );
