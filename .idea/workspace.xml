@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/Components/.sass-cache/82b37f83cdfb4922c1246bf1b1bc97c91c2d9d23/Add.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/.sass-cache/82b37f83cdfb4922c1246bf1b1bc97c91c2d9d23/Add.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Add.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Add.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Add.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Add.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Add.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Add.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <workItem from="1588929497496" duration="9394000" />
       <workItem from="1589054560033" duration="1127000" />
       <workItem from="1589117566215" duration="18834000" />
-      <workItem from="1589195961804" duration="4590000" />
+      <workItem from="1589195961804" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1589126241374</created>
@@ -153,22 +152,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="947" y="277" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586377567853" />
-    <state width="757" height="213" key="GridCell.Tab.0.bottom" timestamp="1589200653830">
+    <state width="757" height="213" key="GridCell.Tab.0.bottom" timestamp="1589200962974">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589200653830" />
-    <state width="757" height="213" key="GridCell.Tab.0.center" timestamp="1589200653830">
+    <state width="757" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589200962974" />
+    <state width="757" height="213" key="GridCell.Tab.0.center" timestamp="1589200962974">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="213" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589200653830" />
-    <state width="757" height="213" key="GridCell.Tab.0.left" timestamp="1589200653829">
+    <state width="757" height="213" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589200962974" />
+    <state width="757" height="213" key="GridCell.Tab.0.left" timestamp="1589200962974">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="213" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589200653829" />
-    <state width="757" height="213" key="GridCell.Tab.0.right" timestamp="1589200653830">
+    <state width="757" height="213" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589200962974" />
+    <state width="757" height="213" key="GridCell.Tab.0.right" timestamp="1589200962974">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="213" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589200653830" />
+    <state width="757" height="213" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589200962974" />
     <state x="407" y="68" key="SettingsEditor" timestamp="1588887777686">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

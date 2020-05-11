@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 .button-field {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
   border-radius: 3px;
 
 }
@@ -11,32 +11,29 @@
     padding: 5px;
     max-width: 100%;
   }
+
   .deleteicon {
     font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
   }
+
   .clickable {
-     justify-content: center;
-     text-align: center;
+    justify-content: center;
+    text-align: center;
 
   }
 
   .clickable:hover {
     opacity: 0.70;
   }
-=======
-.clickable:hover {
-  opacity: 0.75;
->>>>>>> d29c284e3e727c6ee0634e641d3dedf7f6914c4b
+}
+div {
+  text-align: center;
+  justify-content: center;
 }
 
-div {
-  justify-content: center;
-  text-align: center;
-  box-sizing: border-box;
-}
 
 
 
