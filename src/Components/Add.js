@@ -41,7 +41,7 @@ function Add() {
             setStyle({
                 textDecorationLine: 'line-through',
                 textDecorationStyle: 'solid',
-                color: 'green'
+                color: '#A9A9A9'
             });
 
         }
@@ -73,10 +73,10 @@ function Add() {
         return (
             <div className={"button-field"}>
 
-                <IconButton onClick={isClicked} >
-                    <Icon color="primary" style={{fontSize: 40}}>add_circle</Icon>
+                <IconButton onClick={isClicked} color="secondary" >
+                    <Icon color="secondary" style={{fontSize: 40}}>add_circle</Icon>
                 </IconButton>
-                <TextField id="standard-basic" label="Text Here" value={clickState.inputText} onChange={isChanged} onKeyDown={keyPress} />
+                <TextField id="standard-basic" className="textfield" label="Text Here"  color="secondary" value={clickState.inputText} onChange={isChanged} onKeyDown={keyPress} />
 
             </div>
         );
@@ -86,9 +86,9 @@ function Add() {
             <div className={"todo"}>
                 <Add/>
                 <Grid container direction="row" className={"Grid"}>
-                    <Checkbox onClick={isStyleClicked} color={"primary"}></Checkbox>
+                    <Checkbox onClick={isStyleClicked} color="secondary"></Checkbox>
                     <Typography variant="h4" className={"clickable"}  style={{textDecorationLine: styleState.textDecorationLine,
-                        textDecorationStyle: styleState.textDecorationStyle,color:styleState.color}}> {clickState.inputText}</Typography><DeleteIcon onClick={isDeleted} className={"deleteicon"}/>
+                        textDecorationStyle: styleState.textDecorationStyle,color:styleState.color}}> {clickState.inputText}</Typography><DeleteIcon color="secondary" onClick={isDeleted}  className={"deleteicon"}/>
                 </Grid>
             </div>
         );
