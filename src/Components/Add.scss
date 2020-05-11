@@ -1,16 +1,38 @@
-.clickable:hover {
-  opacity: 70%;
+.button-field {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+
 }
+.todo {
+  .Grid {
+    background: #e8e8e8;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+  }
+  .deleteicon {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .clickable {
+     justify-content: center;
+     text-align: center;
+
+  }
+
+  .clickable:hover {
+    opacity: 0.70;
+  }
+}
+
 div {
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
+}
 
-  h1 {
-    margin: auto 5px;
-  }
-}
-.deleteicon {
-  margin: auto 5px;
-  font-size: 50px;
-}
+
+
+

@@ -5,6 +5,9 @@ import TextField from '@material-ui/core/TextField';
 import './Add.scss';
 import Grid from "@material-ui/core/Grid";
 import DeleteIcon from '@material-ui/icons/Delete';
+import Typography from "@material-ui/core/Typography";
+
+
 
 function Add() {
 
@@ -27,21 +30,24 @@ function Add() {
     }
     const [styleState, setStyle] = useState({
         textDecorationLine: "",
-        textDecorationStyle: ""
+        textDecorationStyle: "",
+        color: ""
     });
 
     const isStyleClicked = () => {
         if(styleState.textDecorationLine !== 'line-through') {
             setStyle({
                 textDecorationLine: 'line-through',
-                textDecorationStyle: 'solid'
+                textDecorationStyle: 'solid',
+                color: 'green'
             });
 
         }
         else {
             setStyle({
                 textDecorationLine: '',
-                textDecorationStyle: ''
+                textDecorationStyle: '',
+                color: 'black'
             });
 
         }
@@ -59,29 +65,30 @@ function Add() {
         });
     }
 
-if(!clickState.inputLinkClicked) {
-    return (
-        <div>
 
-            <IconButton onClick={isClicked}>
-                <Icon color="primary" style={{fontSize: 40}}>add_circle</Icon>
-            </IconButton>
-            <TextField id="standard-basic" label="Text Here" value={clickState.inputText} onChange={isChanged} onKeyDown={keyPress}/>
+    if(!clickState.inputLinkClicked || clickState.inputText === "") {
+        return (
+            <div className={"button-field"}>
 
-        </div>
-    );
-}
-else {
-    return(
-        <div>
-            <Add/>
-            <Grid container direction="row">
-            <h1 onClick={isStyleClicked} className={"clickable"} style={{textDecorationLine: styleState.textDecorationLine,
-            textDecorationStyle: styleState.textDecorationStyle}}> {clickState.inputText}</h1> <DeleteIcon onClick={isDeleted} className={"deleteicon"}/>
-            </Grid>
-        </div>
-    );
-}
+                <IconButton onClick={isClicked} >
+                    <Icon color="primary" style={{fontSize: 40}}>add_circle</Icon>
+                </IconButton>
+                <TextField id="standard-basic" label="Text Here" value={clickState.inputText} onChange={isChanged} onKeyDown={keyPress} />
+
+            </div>
+        );
+    }
+    else {
+        return(
+            <div className={"todo"}>
+                <Add/>
+                <Grid container direction="row" className={"Grid"}>
+                    <Typography variant="h4" onClick={isStyleClicked} className={"clickable"}  style={{textDecorationLine: styleState.textDecorationLine,
+                        textDecorationStyle: styleState.textDecorationStyle,color:styleState.color}}> {clickState.inputText}</Typography><DeleteIcon onClick={isDeleted} className={"deleteicon"}/>
+                </Grid>
+            </div>
+        );
+    }
 }
 
 export default Add;
