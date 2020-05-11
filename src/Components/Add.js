@@ -6,6 +6,7 @@ import './Add.scss';
 import Grid from "@material-ui/core/Grid";
 import DeleteIcon from '@material-ui/icons/Delete';
 import Typography from "@material-ui/core/Typography";
+import Checkbox from "@material-ui/core/Checkbox";
 
 
 
@@ -36,6 +37,7 @@ function Add() {
 
     const isStyleClicked = () => {
         if(styleState.textDecorationLine !== 'line-through') {
+            audio.play()
             setStyle({
                 textDecorationLine: 'line-through',
                 textDecorationStyle: 'solid',
@@ -64,6 +66,7 @@ function Add() {
             inputText: ""
         });
     }
+    let audio = new Audio("/succes.mp3")
 
 
     if(!clickState.inputLinkClicked || clickState.inputText === "") {
@@ -83,7 +86,8 @@ function Add() {
             <div className={"todo"}>
                 <Add/>
                 <Grid container direction="row" className={"Grid"}>
-                    <Typography variant="h4" onClick={isStyleClicked} className={"clickable"}  style={{textDecorationLine: styleState.textDecorationLine,
+                    <Checkbox onClick={isStyleClicked} color={"primary"}></Checkbox>
+                    <Typography variant="h4" className={"clickable"}  style={{textDecorationLine: styleState.textDecorationLine,
                         textDecorationStyle: styleState.textDecorationStyle,color:styleState.color}}> {clickState.inputText}</Typography><DeleteIcon onClick={isDeleted} className={"deleteicon"}/>
                 </Grid>
             </div>
