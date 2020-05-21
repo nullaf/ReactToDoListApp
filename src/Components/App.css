@@ -3,7 +3,7 @@
   border-radius: 3px; }
 
 .todo .Grid {
-  background: #CAEBF2;
+  background: #caebf2;
   border-radius: 4px;
   padding: 5px;
   max-width: 100%; }
@@ -16,10 +16,10 @@
   justify-content: center;
   text-align: center; }
 .todo .clickable:hover {
-  opacity: 0.70; }
+  opacity: 0.7; }
 
 div {
   text-align: center;
   justify-content: center; }
 
-/*# sourceMappingURL=Add.css.map */
+/*# sourceMappingURL=App.css.map */

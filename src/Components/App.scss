@@ -1,15 +1,10 @@
-
 .button-field {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
   border-radius: 3px;
-  .textfield {
-
-  }
-
 }
 .todo {
   .Grid {
-    background: #CAEBF2;
+    background: #caebf2;
     border-radius: 4px;
     padding: 5px;
     max-width: 100%;
@@ -25,19 +20,13 @@
   .clickable {
     justify-content: center;
     text-align: center;
-
   }
 
   .clickable:hover {
-    opacity: 0.70;
+    opacity: 0.7;
   }
 }
 div {
   text-align: center;
   justify-content: center;
 }
-
-
-
-
-
