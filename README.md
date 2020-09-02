@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/25d9839e-36c6-4ed0-9b73-0904ef7f7c41/deploy-status)](https://app.netlify.com/sites/todolist-nullaf/deploys)
+![image](https://user-images.githubusercontent.com/47535257/91978902-9659cc00-ed2d-11ea-8ede-6c95e2d64cbf.png)
